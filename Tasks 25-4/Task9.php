@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 1</title>
+    <title>Task 9</title>
 </head>
 
 <body>
     <?php
-    $year=2013;
-    if(($year % 4 == 0) || (($year % 100 == 0) && ($year % 400 == 0)))
-    {
-        echo $year ." is a leap year.";
-    } 
-    else
-    {
-        echo $year ." this year is not a leap year.";
+    $age = 5;
+    if($age < 18){
+        echo "is not eligible to vote";
+    }
+    else{
+        echo "Eligible to vote";
     }
     ?>
 </body>
